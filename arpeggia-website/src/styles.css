@@ -1,0 +1,319 @@
+/* Homepage */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League Spartan:wght@700&display=swap");
+
+p {
+  margin: 0;
+}
+
+.flex-col-hstart-vstart {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex-col-hend {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.flex-row-vend {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-hcenter {
+  justify-content: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row-vcenter-hstart {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.home-page {
+  position: relative;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(0, 0, 0, 1);
+  box-sizing: border-box;
+  width: 1512px;
+  height: 979px;
+}
+
+.group-1084 {
+  position: absolute;
+  top: 161px;
+  none: 0px;
+  padding: 76px 917px 59px 34px;
+  box-sizing: border-box;
+  background-color: rgba(171, 228, 255, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 554px;
+  width: 100%;
+}
+
+.image-6 {
+  width: 559px;
+  height: 100%;
+}
+
+.group-536 {
+  position: absolute;
+  top: 694px;
+  none: 0px;
+  padding: 20px 130px 29px 48px;
+  box-sizing: border-box;
+  background-color: rgba(17, 0, 85, 1);
+  height: 285px;
+  width: 100%;
+}
+
+.group-7410 {
+  margin-bottom: 34px;
+  box-sizing: border-box;
+  width: fit-content;
+}
+
+.group-307 {
+  height: fit-content;
+}
+
+.group-136 {
+  margin-bottom: 18px;
+  box-sizing: border-box;
+  width: fit-content;
+}
+
+.group-785 {
+  width: 100%;
+  height: 100%;
+}
+
+.txt-846 {
+  font-size: 48px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  word-wrap: break-word;
+  margin-right: 165px;
+}
+
+.txt-126 {
+  font-size: 48px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  width: 194px;
+  height: 41px;
+  word-wrap: break-word;
+  margin-right: 57px;
+}
+
+.group-067 {
+  height: fit-content;
+}
+
+.rectangle-2 {
+  height: 25px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.rectangle-3 {
+  background-color: rgba(255, 255, 255, 1);
+  border: 3px solid rgba(0, 0, 0, 1);
+  box-sizing: border-box;
+  height: 25px;
+  width: 100%;
+}
+
+.txt-8105 {
+  font-size: 48px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  width: 194px;
+  height: 41px;
+  word-wrap: break-word;
+}
+
+.group-617 {
+  width: fit-content;
+}
+
+.rectangle-4 {
+  background-color: rgba(255, 255, 255, 1);
+  border: 3px solid rgba(0, 0, 0, 1);
+  box-sizing: border-box;
+  width: 25px;
+  height: 25px;
+  margin-right: 57px;
+}
+
+.txt-4102 {
+  font-size: 28px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  width: 128px;
+  height: 24px;
+  word-wrap: break-word;
+}
+
+.email-divider {
+  border: 1px solid rgba(255, 255, 255, 1);
+  transform: rotate(-0.22deg);
+  width: 536px;
+  height: 1px;
+}
+
+.group-243 {
+  padding: 7px 327px 2px 10px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 1);
+  border: 3px solid rgba(0, 0, 0, 1);
+  height: 50px;
+  width: fit-content;
+}
+
+.txt-827 {
+  font-size: 28px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.txt-324 {
+  position: absolute;
+  top: 830px;
+  left: 58px;
+  font-size: 24px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  width: 677px;
+  height: 157px;
+  word-wrap: break-word;
+}
+
+.txt-524 {
+  position: absolute;
+  top: 51px;
+  left: 375px;
+  font-size: 48px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  width: 241px;
+  height: 60px;
+  word-wrap: break-word;
+}
+
+.nav-bar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 4px 37px 0px 57px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 1);
+  height: 166px;
+  width: 100%;
+}
+
+.arpeggia-_logo-_transparent-011 {
+  width: 340px;
+  margin-right: 81px;
+  height: 100%;
+}
+
+.about-us {
+  margin-right: 136px;
+  box-sizing: border-box;
+  height: fit-content;
+}
+
+.txt-869 {
+  font-size: 48px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  color: rgba(17, 0, 85, 1);
+  text-align: center;
+  width: 231px;
+  height: 67px;
+  word-wrap: break-word;
+}
+
+.txt-762 {
+  font-size: 48px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  color: rgba(17, 0, 85, 1);
+  text-align: center;
+  word-wrap: break-word;
+  margin-right: 106px;
+}
+
+.txt-720 {
+  font-size: 48px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  color: rgba(17, 0, 85, 1);
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.image-5 {
+  position: absolute;
+  top: 161px;
+  left: 543px;
+  width: 378px;
+  height: 365px;
+}
+
+.image-4 {
+  position: absolute;
+  top: 343px;
+  left: 921px;
+  width: 591px;
+  height: 332px;
+  mix-blend-mode: normal;
+}
+
+.txt-743 {
+  position: absolute;
+  top: 512px;
+  left: 495px;
+  font-size: 94px;
+  font-family: League Spartan, sans-serif;
+  font-weight: 700;
+  color: rgba(17, 0, 85, 1);
+  width: 1051px;
+  height: 112px;
+  word-wrap: break-word;
+  mix-blend-mode: hard-light;
+  backdrop-filter: blur(4px);
+}
