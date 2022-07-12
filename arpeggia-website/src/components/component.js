@@ -1,5 +1,5 @@
 import React from "react"
-//import ".styles.css"
+import "./styles.css"
 
 export default function HomePage() {
   return (
@@ -69,7 +69,7 @@ export default function HomePage() {
         alt="Not Found"
         className="image-4"
       />
-      <p className="txt-743">MAKING MUSIC, BUILDING COMMUNITY.</p>
+      {/* <p className="txt-743">MAKING MUSIC, BUILDING COMMUNITY.</p> */}
     </div>
   )
 }
