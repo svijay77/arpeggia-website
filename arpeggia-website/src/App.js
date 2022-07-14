@@ -1,6 +1,16 @@
 import React from "react"
-import HomePage from "./components/component"
+import NavBar from "./Components/NavBar"
+import MainBanner from "./Components/MainBanner"
+import NlText from "./Components/NlText"
 
 export default function App() {
-  return <HomePage />
+  return (
+  <div>
+      <NavBar />
+      <MainBanner />
+      <NlText />
+
+  </div>
+
+  );
 }
