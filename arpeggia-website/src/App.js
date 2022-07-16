@@ -9,7 +9,6 @@ export default function App() {
       <NavBar />
       <MainBanner />
       <NlText />
-
   </div>
 
   );

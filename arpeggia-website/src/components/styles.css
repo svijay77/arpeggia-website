@@ -1,16 +1,14 @@
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
 /* Navbar */
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
 
 p {
   margin: 0;
-}
-
-.flex-col-hstart-vstart {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
 }
 
 .flex-row-vcenter {
@@ -77,13 +75,6 @@ p {
   margin: 0;
 }
 
-.flex-col-hstart-vstart {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
 .main-banner {
   position: relative;
   width: 1512px;
@@ -136,7 +127,7 @@ p {
 
 .flex-col-hstart-vstart {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
 }
@@ -155,6 +146,8 @@ p {
 .group-392 {
   position: absolute;
   padding: 49px 0px 175px 48px;
+  display: flex;
+  flex-direction: row;
   box-sizing: border-box;
   background-color: rgba(17, 0, 85, 1);
   height: 370px;
@@ -192,13 +185,6 @@ p {
 
 p {
   margin: 0;
-}
-
-.flex-col-hstart-vstart {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
 }
 
 .flex-row-vcenter {
@@ -323,15 +309,24 @@ p {
   word-wrap: break-word;
 }
 
-#options {
+.options {
   position: absolute;
-  padding-right: 90%;
+  padding-right: 100%;
+  display: flex;
+  flex-direction: row;
 }
 #iAmA {
-  left: 935px;
+  padding-left: 850px;
   position: absolute;
   width: 200px;
-  top: 45px;
+  padding-top: 50px;
+}
+
+.choices {
+  display: block;
+  box-sizing: border-box;
+  height: 10px;
+  width: 5px;
 }
 
 /* Emailbar */
@@ -340,13 +335,6 @@ p {
 
 p {
   margin: 0;
-}
-
-.flex-col-hstart-vstart {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
 }
 
 .flex-hcenter {
