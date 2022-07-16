@@ -310,13 +310,12 @@ p {
 }
 
 .options {
-  position: absolute;
+  position: relative;
   padding-right: 100%;
   display: flex;
-  flex-direction: row;
 }
 #iAmA {
-  padding-left: 850px;
+  padding-left: 830px;
   position: absolute;
   width: 200px;
   padding-top: 50px;
@@ -324,9 +323,11 @@ p {
 
 .choices {
   display: block;
-  box-sizing: border-box;
-  height: 10px;
-  width: 5px;
+  width: 100px;
+  height: 300px;
+  right: -35px;
+  bottom: -310px;
+  position: absolute;
 }
 
 /* Emailbar */
@@ -347,7 +348,7 @@ p {
   border-top: 1px solid rgb(255, 255, 255);
   width: 450px;
   height: 71px;
-  bottom: -270px;
+  bottom: -280px;
   right: 350px;
   position: absolute;
 }
@@ -369,4 +370,15 @@ p {
   text-align: center;
   width: 192px;
   word-wrap: break-word;
+}
+
+/* Our Team Page */
+
+.header-1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 116px;
+  text-align: center;
 }

@@ -11,7 +11,7 @@ export default function NlText() {
         as information on upcoming events and programs.
         </p>
       </div>
-      <div className= "options">
+      <div className= "options flex-hright">
           <p className="txt-3310 flex-hcenter" id="iAmA">I am a... </p>
           <div className="choices">
             <div className="group-262 flex-row">
@@ -28,7 +28,7 @@ export default function NlText() {
             </div>
           </div>
           
-          <div className="email-bar flex-col-hstart-vstart">
+          <div className="email-bar">
             <div className="group-371">
               <p className="txt-2108 flex-hcenter">email address</p>
             </div>
