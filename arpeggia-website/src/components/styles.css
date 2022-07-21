@@ -4,6 +4,7 @@ body {
 }
 
 /* Navbar */
+  
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
 
@@ -29,8 +30,17 @@ p {
 .group-764 {
   height: 100%;
 }
+.group-765 {
+  height: 100%;
+  background-color: #110055;
+}
 
 .arpeggia-_logo-_transparent-011 {
+  width: 340px;
+  margin-right: 50px;
+  height: 100%;
+}
+.arpeggia-_logo-_transparent-013 {
   width: 340px;
   margin-right: 50px;
   height: 100%;
@@ -41,6 +51,17 @@ p {
   font-family: Inter, sans-serif;
   font-weight: 700;
   color: rgba(17, 0, 85, 1);
+  text-align: center;
+  width: 241px;
+  height: 60px;
+  word-wrap: break-word;
+  margin-right: 50px;
+}
+.txt-778 {
+  font-size: 48px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  color:white;
   text-align: center;
   width: 241px;
   height: 60px;
@@ -58,11 +79,29 @@ p {
   margin-right: 50px;
 }
 
+.txt-477 {
+  font-size: 48px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  color:white;
+  text-align: center;
+  word-wrap: break-word;
+  margin-right: 50px;
+}
+
 .txt-387 {
   font-size: 48px;
   font-family: Inter, sans-serif;
   font-weight: 700;
   color: rgba(17, 0, 85, 1);
+  text-align: center;
+  word-wrap: break-word;
+}
+.txt-388 {
+  font-size: 48px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  color: white;
   text-align: center;
   word-wrap: break-word;
 }
@@ -381,4 +420,115 @@ p {
   font-size: 96px;
   line-height: 116px;
   text-align: center;
+}
+
+/* Get Involved Page */
+
+.involvedHeader  {
+  position: absolute;
+width: 616px;
+height: 83px;
+left: 64px;
+top: 199px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 116px;
+text-align: center;
+
+color: #110055;
+
+}
+
+.parent-header {
+position: absolute;
+left: 12.78%;
+right: 15.78%;
+top: 55.55%;
+bottom: 83.69%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+color: #000000;
+
+}
+
+.parent-box {
+  box-sizing: border-box;
+
+position: absolute;
+left: 10%;
+right: 0%;
+top: 50%;
+bottom: 0%;
+width: 482px;
+height: 662px;
+background: linear-gradient(0deg, #ABE4FF, #ABE4FF), linear-gradient(0deg, #4EC6FF, #4EC6FF), #4EC6FF;
+border: 6px solid #000000;
+}
+
+
+.student-header {
+  position: absolute;
+  left: 41.58%;
+  right: 15.78%;
+  top: 55.55%;
+  bottom: 83.69%;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #000000;
+  
+  }
+  
+  .student-box {
+    box-sizing: border-box;
+  
+  position: absolute;
+  left: 40%;
+  right: 0%;
+  top: 50%;
+  bottom: 0%;
+  width: 482px;
+  height: 662px;
+  background: linear-gradient(0deg, rgba(255, 175, 149, 0.58), rgba(255, 175, 149, 0.58)), linear-gradient(0deg, #CEC6EE, #CEC6EE), #4EC6FF;
+  border: 6px solid #000000;
+}
+
+  
+.teacher-header {
+  position: absolute;
+  left: 72.58%;
+  right: 0.78%;
+  top: 55.55%;
+  bottom: 83.69%;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #000000;
+  
+  }
+  
+  .teacher-box {
+    box-sizing: border-box;
+  position: absolute;
+  left: 70%;
+  right: 0%;
+  top: 50%;
+  bottom: 0%;
+  width: 482px;
+  height: 662px;
+  background: linear-gradient(0deg, #CEC6EE, #CEC6EE), linear-gradient(0deg, #4EC6FF, #4EC6FF), #4EC6FF;
+  border: 6px solid #000000;
 }
