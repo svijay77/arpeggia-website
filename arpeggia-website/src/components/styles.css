@@ -374,11 +374,41 @@ p {
 
 /* Our Team Page */
 
+.bg-1 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  background-color: #ABE4FF;
+  height: 100vh;
+  padding: 10px 80px;
+}
+
 .header-1 {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 96px;
   line-height: 116px;
-  text-align: center;
+  text-align: left;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 308.58px;
+  background-color: white;
+  border: 8px solid black;
+}
+
+.quick-facts {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 33px;
+  width: 560px;
+  height: 195px;
 }
