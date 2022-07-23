@@ -418,7 +418,7 @@ p {
   position: relative;
   flex-direction: column;
   background-color: #ABE4FF;
-  height: 100vh;
+  height: 1952px;
   padding: 10px 80px;
 }
 
@@ -435,21 +435,44 @@ p {
 
 .info-box {
   display: flex;
-  flex-direction: row;
   width: auto;
-  height: 308.58px;
+  height: 25%;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
   background-color: white;
+  border: 8px solid black;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+.team-photo {
+  width: 286.6px;
+  height: 300.24px;
   border: 8px solid black;
 }
 
 .quick-facts {
-  font-family: 'Inter';
+  font-family: 'Open Sans';
   font-style: normal;
-  font-weight: 700;
-  font-size: 27px;
+  font-size: 25px;
   line-height: 33px;
+  width: 348px;
+  height: 195px;
+  text-align: left;
+  box-sizing: border-box;
+  /* border: 8px solid black; */
+}
+
+.bio {
+  font-family: 'Arial';
+  font-style: normal;
+  font-size: 25px;
+  line-height: 25px;
+  box-sizing: border-box;
   width: 560px;
   height: 195px;
+  /* border: 8px solid black; */
 }
 
 /* Get Involved Page */
@@ -490,16 +513,15 @@ color: #000000;
 
 .parent-box {
   box-sizing: border-box;
-
-position: absolute;
-left: 10%;
-right: 0%;
-top: 50%;
-bottom: 0%;
-width: 482px;
-height: 662px;
-background: linear-gradient(0deg, #ABE4FF, #ABE4FF), linear-gradient(0deg, #4EC6FF, #4EC6FF), #4EC6FF;
-border: 6px solid #000000;
+  position: absolute;
+  left: 10%;
+  right: 0%;
+  top: 50%;
+  bottom: 0%;
+  width: 482px;
+  height: 662px;
+  background: linear-gradient(0deg, #ABE4FF, #ABE4FF), linear-gradient(0deg, #4EC6FF, #4EC6FF), #4EC6FF;
+  border: 6px solid #000000;
 }
 
 
@@ -519,9 +541,8 @@ border: 6px solid #000000;
   
   }
   
-  .student-box {
-    box-sizing: border-box;
-  
+.student-box {
+  box-sizing: border-box;
   position: absolute;
   left: 40%;
   right: 0%;

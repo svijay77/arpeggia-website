@@ -6,13 +6,18 @@ export default function OurTeam() {
         <div className = "bg-1">
             <h1 className = "header-1">Our Team.</h1>
             <div className = "info-box">
+                <img className = "team-photo" src = "../assets/sarv.jpg" alt = "one of our team members"/>
                 <div className = "quick-facts">
                     <p> 
-                        <span> Name: </span> Julien Jin-Asma
-                        <br></br>
-                        <span> Major: </span> Business
-                        <br></br>
-                        <span> Chief Executive Officer</span>
+                        <strong> Name: </strong> Julien Jin-Asma
+                    </p>
+                    <br></br>
+                    <p>
+                        <strong> Major: </strong> Business
+                    </p>
+                    <br></br>
+                    <p>
+                        <strong> Chief Executive Officer</strong>
                     </p>
                 </div>
                 <div className = "bio">
@@ -24,13 +29,18 @@ export default function OurTeam() {
                 </div>
             </div>
             <div className = "info-box">
+                <img className = "team-photo" src = "../assets/sarv.jpg" alt = "one of our team members"/>
                 <div className = "quick-facts">
                 <p> 
-                        <span> Name: </span> Joseph Anderson
-                        <br></br>
-                        <span> Major: </span> Music Education
-                        <br></br>
-                        <span> Chief Operations Officer</span>
+                        <strong> Name: </strong> Joseph Anderson
+                    </p>
+                    <br></br>
+                    <p>
+                        <strong> Major: </strong> Music Education
+                    </p>
+                    <br></br>
+                    <p>
+                        <strong> Chief Operations Officer</strong>
                     </p>
                 </div>
                 <div className = "bio">
@@ -43,13 +53,18 @@ export default function OurTeam() {
 
                 </div>
             <div className = "info-box">
+                <img className = "team-photo" src = "../assets/sarv.jpg" alt = "one of our team members"/>
                 <div className = "quick-facts">
-                    <p> 
-                        <span> Name: </span> Sarvagnya Vijay
-                        <br></br>
-                        <span> Major: </span> CS and Statistics
-                        <br></br>
-                        <span> Chief Technical Officer</span>
+                <p> 
+                        <strong> Name: </strong> Sarvagnya Vijay
+                    </p>
+                    <br></br>
+                    <p>
+                        <strong> Major: </strong> CS and Statistics
+                    </p>
+                    <br></br>
+                    <p>
+                        <strong> Chief Technical Officer</strong>
                     </p>
                 </div>
                 <div className = "bio">
@@ -60,13 +75,18 @@ export default function OurTeam() {
                 </div>
             </div>
             <div className = "info-box">
-                <div className = "quick-facts>">
-                    <p> 
-                        <span> Name: </span> Saumya Madhan
-                        <br></br>
-                        <span> Major: </span> CS and Economics
-                        <br></br>
-                        <span> Chief Marketing Officer</span>
+                <img className = "team-photo" src = "../assets/sarv.jpg" alt = "one of our team members"/>
+                <div className = "quick-facts">
+                <p> 
+                        <strong> Name: </strong> Saumya Madhan
+                    </p>
+                    <br></br>
+                    <p>
+                        <strong> Major: </strong> CS and Economics
+                    </p>
+                    <br></br>
+                    <p>
+                        <strong> Chief Marketing Officer</strong>
                     </p>
                 </div>
                 <div className = "bio">
