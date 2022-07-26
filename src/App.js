@@ -23,8 +23,10 @@ function Home() {
   return (
     <div>
       <NavBar />
-      <MainBanner />
-      <NlText />
+      <div className = "page-content">
+        <MainBanner />
+        <NlText />
+      </div>
     </div>
   )
 }
