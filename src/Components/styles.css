@@ -23,8 +23,8 @@ p {
 }
 
 .nav-bar {
-  width: 1409px;
-  height: 160.67px;
+  width: 100%;
+  height:30%;
 }
 
 .group-764 {
@@ -33,16 +33,17 @@ p {
 .group-765 {
   height: 100%;
   background-color: #110055;
+  color: white;
 }
 
 .arpeggia-_logo-_transparent-011 {
-  width: 340px;
-  margin-right: 50px;
+  width: 20%;
+  margin-right: 10px;
   height: 100%;
 }
 .arpeggia-_logo-_transparent-013 {
-  width: 340px;
-  margin-right: 50px;
+  width: auto;
+  margin-right: 1%;
   height: 100%;
 }
 
@@ -50,12 +51,12 @@ p {
   font-size: 48px;
   font-family: Inter, sans-serif;
   font-weight: 700;
-  color: rgba(17, 0, 85, 1);
+  color: rgb(255, 255, 255);
   text-align: center;
-  width: 241px;
-  height: 60px;
+  width: 15%;
+  height: auto;
   word-wrap: break-word;
-  margin-right: 50px;
+  margin-right: 1%;
 }
 .txt-778 {
   font-size: 48px;
@@ -63,20 +64,20 @@ p {
   font-weight: 700;
   color:white;
   text-align: center;
-  width: 241px;
-  height: 60px;
+  width: 15%;
+  height: auto;
   word-wrap: break-word;
-  margin-right: 50px;
+  margin-right: 5%;
 }
 
 .txt-476 {
   font-size: 48px;
   font-family: Inter, sans-serif;
   font-weight: 700;
-  color: rgba(17, 0, 85, 1);
+  color: rgb(255, 255, 255);
   text-align: center;
   word-wrap: break-word;
-  margin-right: 50px;
+  margin-right: 3%;
 }
 
 .txt-477 {
@@ -86,14 +87,14 @@ p {
   color:white;
   text-align: center;
   word-wrap: break-word;
-  margin-right: 50px;
+  margin-right: 3%;
 }
 
 .txt-387 {
   font-size: 48px;
   font-family: Inter, sans-serif;
   font-weight: 700;
-  color: rgba(17, 0, 85, 1);
+  color: rgb(255, 255, 255);
   text-align: center;
   word-wrap: break-word;
 }
@@ -107,7 +108,7 @@ p {
 }
 
 .page-content {
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   
@@ -126,40 +127,37 @@ p {
 
 .group-941 {
   position: relative;
-
-  
-  padding: 353px 397px 89px 62px;
+  padding: 2% 5% 9% 5%; 
   box-sizing: border-box;
   background-color: rgba(171, 228, 255, 1);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  
-  border: 8px solid black;
+
+  border: 0px solid black;
   flex: 1 1 auto;
 }
 
 
 .txt-688 {
-  top: 190px;
+  top: 53%;
   position: absolute;
-  left: 20px;
-  font-size: 86px;
+  left: 2.5%;
+  font-size: 537.5%;
   font-family: League Spartan, sans-serif;
   font-weight: 700;
-  color: #110055;
-  width: 1051px;
-  height: 113px;
+  color: hsl(252, 100%, 17%);
+  width: 55%;
+  height: 50%;
   word-wrap: break-word;
   mix-blend-mode: hard-light;
 }
 
 .orchestra-pana-1 {
-  position: absolute;
-  top: 4%;
+  position: relative;
   bottom: 25.86%;
   left: 57.25%;
-  right: 4.1%;
-  width: 495px;
-  height: 274.5px;
+  /* right: 4.1%;
+  width: 40%;
+  height: auto; */
 }
 /* Nltext */
 
@@ -188,39 +186,38 @@ p {
 
 .group-392 {
   position: absolute;
-  padding: 49px 0px 175px 48px;
+  padding: 2.5% 2.5% 5% 2.5%;
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
   background-color: rgba(17, 0, 85, 1);
-  height: 370px;
+  height: 350px;
   width: 100%;
   
 }
 
 .txt-3310 {
   position: absolute;
-    left: 20px;
   font-size: 48px;
+  padding-right: 2.5%;
   font-family: Inter, sans-serif;
   font-weight: 700;
   color: rgba(255, 255, 255, 1);
-  text-align: center;
-  word-wrap: break-word;
+  width: 100%;
+  /* word-wrap: break-word; */
 }
 
 .txt-737 {
-  position: absolute;
+  position: relative;
   top: 46.58%;
+  padding-right: 40%;
   bottom: 0%;
-  left: 20px;
-  right: 51.46%;
   font-size: 24px;
   font-family: Open Sans, sans-serif;
   font-weight: 700;
   color: rgba(255, 255, 255, 1);
-  width: 677px;
-  height: 157px;
+  width: 45%;
+  height: 100%;
   word-wrap: break-word;
 }
 /* Signupnewsletter */
@@ -359,19 +356,17 @@ p {
   display: flex;
 }
 #iAmA {
-  padding-left: 830px;
+  left: 60%;
   position: absolute;
-  width: 200px;
-  padding-top: 50px;
+  width: 15%;
+  padding-top: 2.5%;
 }
 
 .choices {
-  display: block;
-  width: 100px;
-  height: 300px;
-  right: -35px;
-  bottom: -310px;
+  left: 92%;
   position: absolute;
+  width: 15%;
+  padding-top: 0%;
 }
 
 /* Emailbar */
@@ -390,10 +385,9 @@ p {
   padding: 20px 0px 0px 0px;
   box-sizing: border-box;
   border-top: 1px solid rgb(255, 255, 255);
-  width: 450px;
-  height: 71px;
+ 
   bottom: -280px;
-  right: 350px;
+  right: 12%;
   position: absolute;
 }
 
@@ -505,7 +499,7 @@ color: #110055;
 position: absolute;
 left: 12.78%;
 right: 15.78%;
-top: 55.55%;
+top: 85.55%;
 bottom: 83.69%;
 
 font-family: 'Inter';
@@ -522,7 +516,7 @@ color: #000000;
   position: absolute;
   left: 10%;
   right: 0%;
-  top: 50%;
+  top: 80%;
   bottom: 0%;
   width: 482px;
   height: 662px;
@@ -535,7 +529,7 @@ color: #000000;
   position: absolute;
   left: 41.58%;
   right: 15.78%;
-  top: 55.55%;
+  top: 85.55%;
   bottom: 83.69%;
   
   font-family: 'Inter';
@@ -552,7 +546,7 @@ color: #000000;
   position: absolute;
   left: 40%;
   right: 0%;
-  top: 50%;
+  top: 80%;
   bottom: 0%;
   width: 482px;
   height: 662px;
@@ -565,7 +559,7 @@ color: #000000;
   position: absolute;
   left: 72.58%;
   right: 0.78%;
-  top: 55.55%;
+  top: 85%;
   bottom: 83.69%;
   
   font-family: 'Inter';
@@ -582,7 +576,7 @@ color: #000000;
   position: absolute;
   left: 70%;
   right: 0%;
-  top: 50%;
+  top: 80%;
   bottom: 0%;
   width: 482px;
   height: 662px;
