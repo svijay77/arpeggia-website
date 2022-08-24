@@ -33,7 +33,7 @@ p {
 .group-765 {
   height: 100%;
   background-color: #110055;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .arpeggia-_logo-_transparent-011 {
@@ -51,7 +51,7 @@ p {
   font-size: 48px;
   font-family: Inter, sans-serif;
   font-weight: 700;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-align: center;
   width: 15%;
   height: auto;
@@ -74,7 +74,7 @@ p {
   font-size: 48px;
   font-family: Inter, sans-serif;
   font-weight: 700;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-align: center;
   word-wrap: break-word;
   margin-right: 3%;
@@ -84,7 +84,7 @@ p {
   font-size: 48px;
   font-family: Inter, sans-serif;
   font-weight: 700;
-  color:white;
+  color:rgb(21, 7, 7);
   text-align: center;
   word-wrap: break-word;
   margin-right: 3%;
@@ -94,7 +94,7 @@ p {
   font-size: 48px;
   font-family: Inter, sans-serif;
   font-weight: 700;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-align: center;
   word-wrap: break-word;
 }
@@ -482,7 +482,7 @@ p {
 width: 616px;
 height: 83px;
 left: 64px;
-top: 199px;
+top: 12%;
 
 font-family: 'Inter';
 font-style: normal;
@@ -499,7 +499,7 @@ color: #110055;
 position: absolute;
 left: 12.78%;
 right: 15.78%;
-top: 85.55%;
+top: 43.55%;
 bottom: 83.69%;
 
 font-family: 'Inter';
@@ -516,21 +516,21 @@ color: #000000;
   position: absolute;
   left: 10%;
   right: 0%;
-  top: 80%;
+  top: 40%;
   bottom: 0%;
   width: 482px;
   height: 662px;
   background: linear-gradient(0deg, #ABE4FF, #ABE4FF), linear-gradient(0deg, #4EC6FF, #4EC6FF), #4EC6FF;
   border: 6px solid #000000;
-}
+} 
 
 
 .student-header {
   position: absolute;
   left: 41.58%;
   right: 15.78%;
-  top: 85.55%;
-  bottom: 83.69%;
+  top: 43.55%;
+  bottom: 0%;
   
   font-family: 'Inter';
   font-style: normal;
@@ -546,7 +546,7 @@ color: #000000;
   position: absolute;
   left: 40%;
   right: 0%;
-  top: 80%;
+  top: 40%;
   bottom: 0%;
   width: 482px;
   height: 662px;
@@ -559,7 +559,7 @@ color: #000000;
   position: absolute;
   left: 72.58%;
   right: 0.78%;
-  top: 85%;
+  top: 43%;
   bottom: 83.69%;
   
   font-family: 'Inter';
@@ -576,7 +576,7 @@ color: #000000;
   position: absolute;
   left: 70%;
   right: 0%;
-  top: 80%;
+  top: 40%;
   bottom: 0%;
   width: 482px;
   height: 662px;
