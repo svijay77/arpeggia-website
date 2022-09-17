@@ -12,7 +12,7 @@ export default function NavBar() {
         /></Link>
         <p className="txt-777 flex-hcenter"> About Us</p>
         <Link to = "/ourteam" className="txt-476 flex-hcenter">Our Team</Link>
-        <Link to = "/involve"className="txt-387 flex-hcenter">Get Involved</Link>
+        {/* <Link to = "/involve"className="txt-387 flex-hcenter">Get Involved</Link> */}
       </div>
   )
 }
