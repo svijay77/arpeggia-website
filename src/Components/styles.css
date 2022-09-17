@@ -145,12 +145,14 @@ p {
   color: hsl(252, 100%, 17%);
   width: 55%;
   height: 50%;
+  border: 8px solid black;
   word-wrap: break-word;
   mix-blend-mode: hard-light;
 }
 
 .orchestra-pana-1 {
   position: relative;
+  border: 8px solid black;
   
   /* right: 4.1%;
   width: 40%;
@@ -163,14 +165,6 @@ p {
 
 p {
   margin: 0;
-}
-
-.flex-col-hstart-vstart {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex: 1 1 auto;
 }
 
 .nl-text {
@@ -187,9 +181,8 @@ p {
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
+  border: 8px solid white;
   background-color: rgba(17, 0, 85, 1);
-  height: 350px;
-  width: 100%;
   
 }
 
@@ -201,14 +194,13 @@ p {
   font-weight: 700;
   color: rgba(255, 255, 255, 1);
   width: 100%;
-  /* word-wrap: break-word; */
+  border: 8px solid white;
+  word-wrap: break-word;
 }
 
 .txt-737 {
   position: relative;
-  top: 46.58%;
-  padding-right: 40%;
-  bottom: 0%;
+  border: 8px solid white;
   font-size: 24px;
   font-family: Open Sans, sans-serif;
   font-weight: 700;
@@ -234,10 +226,6 @@ p {
 .flex-row {
   display: flex;
   flex-direction: row;
-}
-
-.flex-hcenter {
-  justify-content: center;
 }
 
 .flex-row-vend {
@@ -349,7 +337,7 @@ p {
 
 .options {
   position: relative;
-  padding-right: 100%;
+  
   display: flex;
 }
 #iAmA {
@@ -360,10 +348,14 @@ p {
 }
 
 .choices {
-  left: 92%;
+  
   position: absolute;
-  width: 15%;
-  padding-top: 0%;
+  display: flex;
+}
+
+.checks {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Emailbar */
