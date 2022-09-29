@@ -12,6 +12,10 @@ p {
   margin: 0;
 }
 
+.nav-item {
+  font-size: 30px !important;
+  padding-right: 30px !important;
+}
 .flex-row-vcenter {
   display: flex;
   flex-direction: row;

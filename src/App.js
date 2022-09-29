@@ -1,10 +1,12 @@
 import React from "react"
-import NavBar from "./Components/NavBar"
-import NavBarBlue from "./Components/NavBarBlue"
+// import NavBar from "./Components/NavBar"
+import Navigation from "./Components/Navigation"
+// import NavBarBlue from "./Components/NavBarBlue"
 import MainBanner from "./Components/MainBanner"
 import OurTeam from "./Components/OurTeam"
 import NlText from "./Components/NlText"
-import { Routes, Route} from "react-router";
+import { Route, Routes } from "react-router";
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default function App() {
   return (
@@ -22,7 +24,7 @@ export default function App() {
 function Home() {
   return (
     <div>
-      <NavBar />
+      <Navigation />
       <div className = "page-content">
         <MainBanner />
         <NlText />
@@ -34,7 +36,7 @@ function Home() {
 function Team() {
   return (
     <div>
-      <NavBar />
+      <Navigation />
       <OurTeam />
     </div>
   )
@@ -43,7 +45,7 @@ function Team() {
 function Involve() {
   return (
     <div>
-      <NavBarBlue />
+      <Navigation />
       <h1 className="involvedHeader">Get Involved.</h1>
       
       <div className="parent-box"/>
