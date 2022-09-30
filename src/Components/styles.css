@@ -16,6 +16,10 @@ p {
   font-size: 30px !important;
   padding-right: 30px !important;
 }
+
+.contr-main {
+  background-color: white;
+}
 .flex-row-vcenter {
   display: flex;
   flex-direction: row;
@@ -24,11 +28,6 @@ p {
 
 .flex-hcenter {
   justify-content: center;
-}
-
-.nav-bar {
-  width: 100%;
-  height:30%;
 }
 
 .group-764 {
@@ -142,26 +141,30 @@ p {
 
 
 .txt-688 {
-  top: 53%;
+  
   position: absolute;
-  left: 2.5%;
-  font-size: 537.5%;
+  
+  font-size: 60px;
   font-family: League Spartan, sans-serif;
   font-weight: 700;
-  color: hsl(252, 100%, 17%);
-  width: 55%;
-  height: 50%;
+  width: 900px;
   word-wrap: break-word;
   mix-blend-mode: hard-light;
 }
 
+.signup-but {
+  background-color:rgba(17, 0, 85, 1);
+  margin-top: 30px;
+}
+
+.descr {
+  margin-top: 50px;
+  font-size: 35px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .orchestra-pana-1 {
-  position: relative;
-  bottom: 25.86%;
-  left: 57.25%;
-  /* right: 4.1%;
-  width: 40%;
-  height: auto; */
+
 }
 /* Nltext */
 

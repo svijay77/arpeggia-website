@@ -25,10 +25,9 @@ function Home() {
   return (
     <div>
       <Navigation />
-      <div className = "page-content">
-        <MainBanner />
-        <NlText />
-      </div>
+     
+      <MainBanner />
+      {/* <NlText /> */}
     </div>
   )
 }
