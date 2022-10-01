@@ -1,7 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Nav from 'react-bootstrap/Nav';
+// import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container'
 import React from "react"
 import './styles.css'
@@ -20,14 +19,14 @@ function Navigation() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
 
-                    <Nav>
+                    {/* <Nav>
                         <Nav.Item>
                             <Nav.Link href = "/aboutus"> About Us </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
                             <Nav.Link href = "/ourteam"> Our Team </Nav.Link>
                         </Nav.Item>
-                    </Nav>
+                    </Nav> */}
                     </Navbar.Collapse>
             </Container>
         </Navbar>

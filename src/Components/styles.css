@@ -12,14 +12,22 @@ p {
   margin: 0;
 }
 
+.navbar {
+  background-color: rgba(171, 228, 255, 1);
+}
+
+.hor-line {
+  background-color: rgba(171, 228, 255, 1);
+  color: #abe4ff;
+  border-color: #abe4ff;
+  height: 20px;
+}
+
 .nav-item {
   font-size: 30px !important;
   padding-right: 30px !important;
 }
 
-.contr-main {
-  background-color: white;
-}
 .flex-row-vcenter {
   display: flex;
   flex-direction: row;
@@ -141,15 +149,12 @@ p {
 
 
 .txt-688 {
-  
-  position: absolute;
-  
+  text-align: left;
+  position: relative;
+  padding-top: 70px;
   font-size: 60px;
   font-family: League Spartan, sans-serif;
   font-weight: 700;
-  width: 900px;
-  word-wrap: break-word;
-  mix-blend-mode: hard-light;
 }
 
 .signup-but {
@@ -163,7 +168,18 @@ p {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.orchestra-pana-1 {
+.form-descr {
+  align-items: flex-start;
+  padding: 20px;
+  font-size: 35px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media screen and (max-width: 799px) {
+  .mygform {
+    width: auto;
+  }
+
 
 }
 /* Nltext */
@@ -273,7 +289,6 @@ p {
   position: absolute;
   top: 94px;
   right: 400px;
-  none: 0px;
   width: 183px;
   height: -moz-fit-content;
   height: fit-content;
@@ -303,7 +318,6 @@ p {
   position: absolute;
   top: 47px;
   right: 415px;
-  none: 0px;
   width: 167px;
   height: fit-content;
 }
@@ -332,7 +346,6 @@ p {
   position: absolute;
   top: 135px;
   right: 415px;
-  none: 0px;
   width: 167px;
   height: 27px;
 }
@@ -517,6 +530,8 @@ line-height: 58px;
 color: #000000;
 
 }
+
+
 
 .parent-box {
   box-sizing: border-box;

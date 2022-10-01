@@ -4,9 +4,10 @@ import Navigation from "./Components/Navigation"
 // import NavBarBlue from "./Components/NavBarBlue"
 import MainBanner from "./Components/MainBanner"
 import OurTeam from "./Components/OurTeam"
-import NlText from "./Components/NlText"
+// import NlText from "./Components/NlText"
 import { Route, Routes } from "react-router";
 import 'bootstrap/dist/css/bootstrap.min.css'
+import './Components/styles.css'
 
 export default function App() {
   return (
@@ -25,9 +26,7 @@ function Home() {
   return (
     <div>
       <Navigation />
-     
       <MainBanner />
-      {/* <NlText /> */}
     </div>
   )
 }
@@ -41,21 +40,21 @@ function Team() {
   )
 }
 
-function Involve() {
-  return (
-    <div>
-      <Navigation />
-      <h1 className="involvedHeader">Get Involved.</h1>
+// function Involve() {
+//   return (
+//     <div>
+//       <Navigation />
+//       <h1 className="involvedHeader">Get Involved.</h1>
       
-      <div className="parent-box"/>
-      <p className="parent-header">For Parents.</p>
+//       <div className="parent-box"/>
+//       <p className="parent-header">For Parents.</p>
       
-      <div className="student-box"/>
-      <p className="student-header">For Instructors.</p>
+//       <div className="student-box"/>
+//       <p className="student-header">For Instructors.</p>
       
-      <div className="teacher-box"/>
-      <p className="teacher-header">For Educators.</p>
+//       <div className="teacher-box"/>
+//       <p className="teacher-header">For Educators.</p>
       
-    </div>
-  )
-}
+//     </div>
+//   )
+// }
