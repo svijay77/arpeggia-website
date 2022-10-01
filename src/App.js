@@ -1,10 +1,7 @@
 import React from "react"
-// import NavBar from "./Components/NavBar"
 import Navigation from "./Components/Navigation"
-// import NavBarBlue from "./Components/NavBarBlue"
 import MainBanner from "./Components/MainBanner"
 import OurTeam from "./Components/OurTeam"
-// import NlText from "./Components/NlText"
 import { Route, Routes } from "react-router";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './Components/styles.css'
