@@ -1,10 +1,11 @@
-import React from "react"
-import Navigation from "./Components/Navigation"
-import MainBanner from "./Components/MainBanner"
-import OurTeam from "./Components/OurTeam"
+import React from "react";
+import Navigation from "./Components/Navigation";
+import MainBanner from "./Components/MainBanner";
+import Footer from "./Components/Footer";
+import OurTeam from "./Components/OurTeam";
 import { Route, Routes } from "react-router";
-import 'bootstrap/dist/css/bootstrap.min.css'
-import './Components/styles.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './Components/styles.css';
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ function Home() {
     <div>
       <Navigation />
       <MainBanner />
+      <Footer />
     </div>
   )
 }
