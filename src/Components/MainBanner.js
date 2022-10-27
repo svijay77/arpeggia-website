@@ -11,7 +11,7 @@ export default function MainBanner() {
       <Container className = 'justify-items-center'>
         <Row className = 'align-items-start'>
           <Col>
-            <h3 className='txt-688'> Teaching Music, Building Community!</h3>
+            <h3 className='txt-688'> Making Music, Building Community!</h3>
           </Col>
           <Col className = 'text-center'>
               <Image
