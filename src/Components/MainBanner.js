@@ -1,6 +1,10 @@
 import React from "react"
 import Image from "react-bootstrap/Image"
 import Container from 'react-bootstrap/Container'
+import Carousel from 'react-bootstrap/Carousel'
+import pic1 from '../assets/IMG_1977_trimmed.jpeg'
+import pic2 from '../assets/IMG_1988_trimmed.jpeg'
+import pic3 from '../assets/IMG_1991_trimmed.jpeg'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import "./styles.css"
@@ -9,6 +13,24 @@ export default function MainBanner() {
   return (
       <>
       <Container className = 'justify-items-center'>
+        <Row>
+            <Carousel>
+              <Carousel.Item>
+                  <img className='carousel-img' src={pic1} alt='one of our teachers'/>
+                  <Carousel.Caption> <h3> Making Music, Building Community! </h3></Carousel.Caption>
+              </Carousel.Item>
+              
+              <Carousel.Item>
+                  <img className='carousel-img' src={pic2} alt='one of our teachers'/>
+                  <Carousel.Caption> <h3> Making Music, Building Community </h3></Carousel.Caption>
+              </Carousel.Item>
+              
+              <Carousel.Item>
+                  <img className='carousel-img' src={pic3} alt='one of our teachers'/>
+                  <Carousel.Caption> <h3> Making Music, Building Community </h3></Carousel.Caption>
+              </Carousel.Item>
+            </Carousel>
+        </Row>
         <Row className = 'align-items-start'>
           <Col>
             <h3 className='txt-688'> Making Music, Building Community!</h3>

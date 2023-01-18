@@ -16,6 +16,11 @@ p {
   background-color: rgba(171, 228, 255, 1);
 }
 
+.carousel-img {
+  width: 100%;
+  height: auto;
+}
+
 .hor-line {
   background-color: rgba(171, 228, 255, 1);
   color: #abe4ff;
