@@ -17,17 +17,17 @@ export default function MainBanner() {
             <Carousel>
               <Carousel.Item>
                   <img className='carousel-img' src={pic1} alt='one of our teachers'/>
-                  <Carousel.Caption> <h3> Making Music, Building Community! </h3></Carousel.Caption>
+                  <Carousel.Caption> <h3>  </h3></Carousel.Caption>
               </Carousel.Item>
               
               <Carousel.Item>
                   <img className='carousel-img' src={pic2} alt='one of our teachers'/>
-                  <Carousel.Caption> <h3> Making Music, Building Community </h3></Carousel.Caption>
+                  <Carousel.Caption> <h3>  </h3></Carousel.Caption>
               </Carousel.Item>
               
               <Carousel.Item>
                   <img className='carousel-img' src={pic3} alt='one of our teachers'/>
-                  <Carousel.Caption> <h3> Making Music, Building Community </h3></Carousel.Caption>
+                  <Carousel.Caption> <h3>  </h3></Carousel.Caption>
               </Carousel.Item>
             </Carousel>
         </Row>
@@ -57,7 +57,7 @@ export default function MainBanner() {
             </p>
             </Col>
             <Col className = 'mygform'>
-              <iframe title="signup form" src="https://docs.google.com/forms/d/e/1FAIpQLSekkHYQb3p5q62Khw30OUTPDom9ffZ8vJg0iSDwt2pmz6ZHMw/viewform?embedded=true" width="750" height="520" frameborder="0" marginheight="0" marginwidth="0" className = 'mygform' >Loading…</iframe>
+              <iframe title="signup form" src="https://forms.gle/PzW58fhbY4XcPrpE7" width="750" height="520" frameborder="0" marginheight="0" marginwidth="0" className = 'mygform' >Loading…</iframe>
             </Col>
         </Row>
       </Container>
