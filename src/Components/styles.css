@@ -161,6 +161,14 @@ p {
   font-family: League Spartan, sans-serif;
   font-weight: 700;
 }
+.txt-689 {
+  text-align: left;
+  position: relative;
+  padding-top: 70px;
+  font-size: 40px;
+  font-family: League Spartan, sans-serif;
+  font-weight: 600;
+}
 
 .signup-but {
   background-color:rgba(17, 0, 85, 1);

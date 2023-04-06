@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-// import Nav from 'react-bootstrap/Nav';
+import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container'
 import React from "react"
@@ -16,18 +16,18 @@ function Navigation() {
                             height="70"
                             alt = 'arpeggia logo'/>
                     </Navbar.Brand>
-                    {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
-                    {/* <Navbar.Collapse id="basic-navbar-nav">
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
 
                     <Nav>
                         <Nav.Item>
                             <Nav.Link href = "/aboutus"> About Us </Nav.Link>
                         </Nav.Item>
-                        <Nav.Item>
+                        {/* <Nav.Item>
                             <Nav.Link href = "/ourteam"> Our Team </Nav.Link>
-                        </Nav.Item>
+                        </Nav.Item> */}
                     </Nav>
-                    </Navbar.Collapse> */}
+                    </Navbar.Collapse>
             </Container>
         </Navbar>
         </>

@@ -2,6 +2,7 @@ import React from "react";
 import Navigation from "./Components/Navigation";
 import MainBanner from "./Components/MainBanner";
 import Footer from "./Components/Footer";
+import AboutUs from './Components/AboutUs'
 import OurTeam from "./Components/OurTeam";
 import { Route, Routes } from "react-router";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,7 +13,7 @@ export default function App() {
   <div>
     <Routes>
       <Route path="/" element={<Home />} />
-      {/* <Route path = "/aboutus" element={<AboutUs />} /> */}
+      <Route path = "/aboutus" element={<AboutUs />} />
       <Route path = "/ourteam" element={<Team />} />
      {/* <Route path = "/involve" element={<Involve />} />   */}
     </Routes>
